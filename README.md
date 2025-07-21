@@ -29,10 +29,14 @@ All features were derived from ~30-minute stock price data.
 
 ## Machine Learning
 
-We used a `RandomForestClassifier` to:
+Used a `RandomForestClassifier` to:
 
 - Predict whether a row is a **2-hour high** (or low)
 - Rank features by importance for classification
 - Visualize how top features behave before highs/lows
 
-Due to limited data, results are preliminary but promising:
+## Extra Info
+
+This project is helpful for day trading and understanding signals of confounding variables and how they affact price. This insight can be used to learn adn apply these concepts, but it takes really looking and understanding what the signals mean to be useful. When looking at these strategies, I typically look at stocks that are volatile pre market movers, and wait for price to intersect with VWAP to start watching for positive signals.
+
+I utilized genAI and chat gpt for code comments, to help clarify what each does for anyone wanting to use or learn from this code. 
