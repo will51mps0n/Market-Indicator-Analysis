@@ -37,6 +37,8 @@ Used a `RandomForestClassifier` to:
 
 ## Extra Info
 
-This project is helpful for day trading and understanding signals of confounding variables and how they affact price. This insight can be used to learn adn apply these concepts, but it takes really looking and understanding what the signals mean to be useful. When looking at these strategies, I typically look at stocks that are volatile pre market movers, and wait for price to intersect with VWAP to start watching for positive signals.
+This project is helpful for day trading and understanding signals of confounding variables and how they affect price. This insight can be used to learn and apply these concepts in the market, but it takes really looking at data and understanding what the signals mean to be useful. When looking at these strategies, I typically look at stocks that are volatile pre market movers, and wait for price to intersect with VWAP to start watching for positive signals based on EMA differences and RSI signals that correlate with positive changes when backtesting. 
+
+I used an example date and stock for the data, but this can be done with any stock thanks to the alpaca API - its very powerful for backtesting and understanding historical data. 
 
 I utilized genAI and chat gpt for code comments, to help clarify what each does for anyone wanting to use or learn from this code. 
